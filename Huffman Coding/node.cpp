@@ -1,13 +1,17 @@
-#include"Node.h"
-char node::getData()
+#include"node.h"
+char node::getCharacter() const
 {
-	return alpha;
+	return char1;
 }
-NodeInterface* node:: getLeftChild()
+int node::getFrequency() const
+{
+	return  freq;
+}
+NodeInterface* node::getLeftChild() const
 {
 	return left;
 }
-NodeInterface* node:: getRightChild()
+NodeInterface* node::getRightChild() const
 {
 	return right;
 }

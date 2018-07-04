@@ -19,18 +19,5 @@ public:
 	*
 	* @return the root node for this tree.
 	*/
-	virtual NodeInterface * getRootNode() = 0;
-
-	/*
-	* Attempts to add the given int to the BST tree
-	*
-	* @return true if added
-	* @return false if unsuccessful (i.e. the int is already in tree)
-	*/
-	virtual bool add(char data) = 0;
-
-	/*
-	* Removes all nodes from the tree, resulting in an empty tree.
-	*/
-	virtual void clear() = 0;
+	virtual NodeInterface * getRootNode() const = 0;
 };

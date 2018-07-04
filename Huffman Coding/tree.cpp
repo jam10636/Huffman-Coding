@@ -1,13 +1,5 @@
-#include"Tree.h"
-bool tree::add(char data)
-{
-
-}
-void tree::clear()
-{
-
-}
-NodeInterface* tree::getRootNode()
+#include"tree.h"
+NodeInterface* tree::getRootNode() const
 {
 	return head;
 }
